@@ -14,6 +14,8 @@
 
 ## Step 1: reading the X_train data into a format compatible with dplyr
 ## the data first must be read into a data table. fread() is faster than read.table
+## keep in mind that you may need to augment the file path in the read commands to match 
+## the path to your working directory
 
 library(data.table)
 library(dplyr)
