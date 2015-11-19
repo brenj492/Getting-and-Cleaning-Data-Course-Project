@@ -26,7 +26,8 @@ The final summarized data table has 180 observations across 88 rows. The variabl
 Subject ID: a numeric identification number ranging from 1 to 30
 Activity: 1_Walking, 2_Walking_Upstairs, 3_Walking_Downstairs, 4_Sitting, 5_Standing, 6_Laying
 
-The next 86 variables represent the average values of all repetitions each subject conducted of each activity, measured in Hz.
+The next 86 variables represent the average values of all repetitions each subject conducted of each activity, 
+measured in Hz.
 The measurement variables are:
  [3] "tBodyAcc-mean()-X"                    "tBodyAcc-mean()-Y"                   
  [5] "tBodyAcc-mean()-Z"                    "tGravityAcc-mean()-X"                 "tGravityAcc-mean()-Y"                 "tGravityAcc-mean()-Z"                
