@@ -18,8 +18,8 @@ This resulted in 88 columns: 2 columns for subject and activity, respectively, a
 The train and test data tables were then combined using the bind_rows() function in dplyr. At this stage the activity 
 indicators (numeric values 1 through 6) were converted into more descriptive titles (see below). Finally, this combined 
 data table was broken up into groups of subject and activity using the by_groups() function in dplyr, and the average 
-for each measurement per activity, per subject was calculated using the summarize_each() function in dplyr. This second, tidy 
-data table was converted into a text file using write.table, and uploaded for the first part of this assignment on 
+for each measurement per activity, per subject was calculated using the summarize_each() function in dplyr. This second, 
+tidy data table was converted into a text file using write.table, and uploaded for the first part of this assignment on 
 Coursera. 
 
 The final summarized data table has 180 observations across 88 rows. The variables are as follows:
