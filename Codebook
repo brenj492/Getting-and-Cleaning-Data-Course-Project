@@ -42,7 +42,7 @@ This second, tidy data table was converted into a text file using write.table, a
 of this assignment on Coursera. The final summarized data table has 180 observations across 88 rows. 
 The variables are as follows:
 
-Subject ID: a numeric identification number ranging from 1 to 30
+Subject_ID: a numeric identification number ranging from 1 to 30
 Activity: 1_Walking, 2_Walking_Upstairs, 3_Walking_Downstairs, 4_Sitting, 5_Standing, 6_Laying
 
 The next 86 variables represent the average values of all repetitions each subject conducted of each activity, 
