@@ -38,10 +38,9 @@ frame of 88 variables and 10,299 observations.
 in dplyr, and the average for each measurement per activity, per subject was calculated using the summarize_each() 
 function in dplyr. 
 
-10. This second, tidy data table was converted into a text file using write.table, and uploaded for the first part 
-of this assignment on Coursera. 
-
-The final summarized data table has 180 observations across 88 rows. The variables are as follows:
+This second, tidy data table was converted into a text file using write.table, and uploaded for the first part 
+of this assignment on Coursera. The final summarized data table has 180 observations across 88 rows. 
+The variables are as follows:
 
 Subject ID: a numeric identification number ranging from 1 to 30
 Activity: 1_Walking, 2_Walking_Upstairs, 3_Walking_Downstairs, 4_Sitting, 5_Standing, 6_Laying
