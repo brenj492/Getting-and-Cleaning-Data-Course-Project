@@ -16,6 +16,7 @@
 ## the data first must be read into a data table. fread() is faster than read.table
 ## keep in mind that you may need to augment the file path in the read commands to match 
 ## the path to your working directory
+## the data.table and dplyr packages are needed to run this code, so I have called them here
 
 library(data.table)
 library(dplyr)
