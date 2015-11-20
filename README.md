@@ -2,7 +2,7 @@
 This script merges and cleans up two distinct data sets (train and test) within the 
 Human Activity Recognition Using Smartphones Dataset. 
 
-The following packages are used in this script: data.table and dplyr. Make sure they are installed before proceeding
+The following packages are used in this script: data.table and dplyr. Make sure they are installed before proceeding.
 In all read() commands, make sure the file path entered matches the path to your working directory. If you receive a 
 file does not exist error, check to make sure the file path inputted is correct.
 
