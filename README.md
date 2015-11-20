@@ -24,4 +24,4 @@ grouped first by subject and then by activity, and the average was calculated fo
 subject. The resulting data frame has 180 observations across 88 columns (again, a column for subject and activity,
 followed by 86 columns for the means of each of the measurements). 
 
-All measurements are in Hz. See the Codebook for a more detailed description of the process and information on the variables.
+All measurement units are in Hz. See the Codebook for a more detailed description of the process and information on the variables.
