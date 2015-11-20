@@ -45,7 +45,7 @@ train.DF <- select(train.DF, contains("mean"), contains("std"))
 act.train <- fread("./UCI HAR Dataset/train/y_train.txt")
 names(act.train) <- "Activity"
 subject.train <- fread("./UCI HAR Dataset/train/subject_train.txt")
-names(subject.train) <- "Subject ID"
+names(subject.train) <- "Subject_ID"
 train.DF <- bind_cols(subject.train, act.train, train.DF)
 
 ## Step 6: Repeat steps 1-5 with the test dataset
@@ -55,7 +55,7 @@ test.DF <- tbl_df(test.data)
 act.test <- fread("./UCI HAR Dataset/test/y_test.txt")
 names(act.test) <- "Activity"
 subject.test <- fread("./UCI HAR Dataset/test/subject_test.txt")
-names(subject.test) <- "Subject ID"
+names(subject.test) <- "Subject_ID"
 names(test.DF) <- colnames
 test.DF <- test.DF[, !duplicated(colnames(test.DF))]
 test.DF <- select(test.DF, contains("mean"), contains("std"))
@@ -81,7 +81,7 @@ full.DF
 ## Step 9: Creating a second, tidy data table with averages for each variable of each activity of each subject
 
 summary.DF <- full.DF %>%
-              group_by(Subject, Activity) %>%
+              group_by(Subject_ID, Activity) %>%
               summarize_each(funs(mean)) %>%
               print
               
